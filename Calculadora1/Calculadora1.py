@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 
 """
-Calculadora1: Hacer un programa de calculadora sencilla.
+Calculadora1: Programa de calculadora básica.
 
-1. Pregunte al usuario por dos operandos
-(puede llamarlo operando A y operando B).
-2. Después de tener los operandos,
-preguntar por cuál operación realizar.
-Sólo debe realizar una operación.
-3. Implemente las cuatro operaciones aritméticas básicas:
-Suma, Resta, Multiplicación y División.
-4. El menú de operaciones puede ser numérico o de texto.
-5. Muestre en pantalla el resultado de la operación.
+Esta calculadora le pregunta al usuario
+por dos operandos que al momento de colocarlos
+aparecerá una lista donde se debe elegir la
+operación a realizar (suma,resta,multiplicación o división)
+con los operandos que le fueron dados, los opera y te
+muestra el resultado en pantalla de la operación elegida.
 
 Autor: David Torres <dstorresr@academia.usbbog.edu.co>
 Fecha: 2025-03-02
@@ -75,7 +72,6 @@ def dividir(a, b):
 def run():
     """Función que solicita al usuario seleccionar una operación
     mediante un menú para luego realizar el cálculo."""
-    """script entrypoint"""
 
     # **** Poner el código ejecutable de su ejercicio aquí
 
