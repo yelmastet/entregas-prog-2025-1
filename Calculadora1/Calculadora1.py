@@ -112,6 +112,8 @@ def run():
         print("Operación no válida. Inténtelo de nuevo.")
 
     # **** ****
+
+
 # **** Conserve este condicional para ejecutar el programa directamente
 if __name__ == "__main__":
     run()
