@@ -68,7 +68,6 @@ def run():
     """
     Función principal que gestiona la entrada del usuario y el ciclo del menú.
     """
-    
     # **** Poner el código ejecutable de su ejercicio aquí
 
     # Validar que el usuario no deje la entrada vacía
